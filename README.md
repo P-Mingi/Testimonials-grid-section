@@ -11,15 +11,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 
 
-## Overview
-
-I coded this page based only on the FIGMA file, so I used precise "width" and "height" values ​​in order to obtain a result exact to that of the FIGMA file, which is not not recommended. 
-
-If I had to do it again I would try to get an exact result without having to restrict my "width", "height" and others with static values.
-
 ### Screenshot
 
-![](https://github.com/P-Mingi/Blog-preview-card/blob/main/assets/images/screenshot.png?raw=true)
+![](https://github.com/P-Mingi/Testimonials-grid-section/blob/main/images/screenshot.png?raw=true)
 
 
 ### Links
