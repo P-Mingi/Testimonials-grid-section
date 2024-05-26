@@ -37,8 +37,7 @@ body {
 p {
     font-size: 1.3rem;
     font-weight: 300;
-    line-height: 130%;
-    opacity: .8;
+    line-height: 140%;
 }
 
 h1 {
@@ -48,8 +47,8 @@ h1 {
 }
 
 .container {
-    width: 75%;
-    margin: 10rem auto;
+    width: 80%;
+    margin: 13rem auto;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr) ;
@@ -58,8 +57,7 @@ h1 {
 
 .card {
     border-radius: 1rem;
-    padding:3rem;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 2rem 4rem;
 }
 
 .one {
@@ -113,10 +111,18 @@ h1 {
     border-radius: 2rem;
 }
 
-.avatar
 
 .one {
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: 30rem 0;
+    background-position: 40rem 0;
+}
+
+@media (max-width: 840px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-width: 30rem;
+    }
 }
